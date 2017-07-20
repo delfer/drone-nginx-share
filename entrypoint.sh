@@ -2,4 +2,4 @@
 
 ln -s $DRONE_WORKSPACE /usr/share/nginx/html
 
-exec "$@"
+ nginx -g "daemon off;"
